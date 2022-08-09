@@ -13,10 +13,12 @@ btn.addEventListener("click",function(){
 //     return Math.floor(Math.random() * colors.length);
 // }
 // ************************************
-// btn.addEventListener("click",function(){
+// btn.addEventListener("click",async function(){
 //     for(let i=0;i<colors.length;i++){
 //         color.textContent=colors[i]
 //         console.log(colors[i])
+//         await new Promise(r => setTimeout(r, 2000));
+
 //         document.body.style.backgroundColor=colors[i];
 //     }
 // });
