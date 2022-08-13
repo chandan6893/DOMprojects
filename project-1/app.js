@@ -7,7 +7,7 @@ btn.addEventListener("click",function(){
     
     // console.log(randomNo);
     document.body.style.backgroundColor=colors[Math.floor(Math.random() * colors.length)];
-    color.textContent=colors[Math.floor(Math.random() * colors.length)];
+    color.textContent= colors[Math.floor(Math.random() * colors.length)];
 });
 // function getRandomNo(){
 //     return Math.floor(Math.random() * colors.length);

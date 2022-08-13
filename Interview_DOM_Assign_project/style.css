@@ -1,0 +1,82 @@
+.nav{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    margin: 0;
+    
+}
+.all{
+    background-color: aliceblue;
+    /* height: auto;
+    width: auto; */
+    
+    display: flex;
+    
+    justify-content: space-between;
+    border: none;
+    border-radius: 15px;
+    
+}
+
+.all_btn{
+   
+    display: inline-block;
+    
+}
+#c_t_btn{
+    background-color:chocolate;
+    height: 2rem;
+    border: none;
+    border-radius: 15px;
+}
+#silver_btn{
+   color: black;
+   height: 30px;
+   width: 30px;
+   border: none;
+   border-radius: 5px;
+}
+#red_btn{
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 5px;
+}
+#yellow_btn{
+    background-color: yellow;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 5px;
+}
+#blue_btn{
+    background-color: blue;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 5px;
+}
+#black_btn{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 5px;
+}
+#check_btn{
+    color: darkgoldenrod;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 5px;
+}
+#silver_btn{
+    /* position: relative; */
+    /* left: 2%; */
+    
+
+
+}
