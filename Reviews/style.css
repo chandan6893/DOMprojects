@@ -1,0 +1,29 @@
+.nav{
+    background-color: aquamarine;
+    height: 50px;
+    max-width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:larger;
+    font-weight: bolder;
+    line-height: 40px;
+    /* padding: 50px; */
+    /* margin-bottom: 50; */
+}
+.container{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+   
+}
+#image{
+    height: 240px;
+    width: 240;
+}
