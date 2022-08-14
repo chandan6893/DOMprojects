@@ -1,0 +1,27 @@
+main{
+    display: grid;
+    /* place-items: center; */
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+}
+.container{
+    text-align: center;
+}
+#value{
+    font-size: 6rem;
+    font-weight: bold;
+}
+.btn{
+    padding: 10px 16px;
+    /* display: inline-block; */
+    font-size: 15px;
+    font-weight: bold;
+    margin: 3px;
+    border-radius: 10px;
+}
+.btn:hover{
+    color:rgb(242, 237, 234);
+    background-color: cornflowerblue;
+    border: none;
+}
