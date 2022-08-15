@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+   margin:0;
+   padding: 0;
+}
 .nav{
     background-color: aquamarine;
     height: 50px;
@@ -20,10 +25,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 100px;
+    margin-left: 500px;
+    border-radius:30px;
    
    
 }
 #image{
     height: 240px;
     width: 240;
+    border: 1px solid black;
+    border-radius:300px;
 }
