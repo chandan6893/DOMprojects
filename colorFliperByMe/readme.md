@@ -1,1 +1,1 @@
-<img src="OutputScreenshots\colorFlipper.png" alt="">
+<img src="img\colorFlipper.png" alt="">
