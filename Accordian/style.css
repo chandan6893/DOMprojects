@@ -1,0 +1,62 @@
+.accordian{
+    /* background-color: aquamarine; */
+    height: 500px;
+}
+.contentBox{
+
+max-width: 800px;
+
+
+}
+
+    
+.heading{
+background-color: black;
+color: antiquewhite;
+font-size: larger;
+font-weight: bolder;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 30px;
+padding: 10px;
+}
+.texts{
+background-color: lightgray;
+text-transform: capitalize;
+height: 0;
+/* overflow: hidden; */
+padding: 10px;
+visibility: hidden;
+}
+
+.showText{
+    height: auto;
+    /* overflow: visible; */
+    visibility: visible;
+}
+
+.buttons{
+    right: 100px;   
+    
+}
+ .openButton{
+    position:absolute;
+    right: 42%;
+    top:14px;
+    color: black;
+    /* background-color: white; */
+    /* color: yellow; */
+    
+    
+    
+}  
+
+.closeButton{
+    position:absolute;
+   right: 42%;
+   top:14px;
+   color:black;
+   /* visibility: hidden; */
+}
+   
