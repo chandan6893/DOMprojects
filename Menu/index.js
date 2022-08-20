@@ -111,12 +111,6 @@ filterBtns.forEach(function(btn){
 });
 
 
-
-
-
-
-
-
 function displayMenuItems(menuItems){
     let displayMenu = menuItems.map(function(item){
         
