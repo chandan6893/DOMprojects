@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('https://www.weather2travel.com/images_content/sunshine-hours-where-and-when-is-it-sunniest.jpg');
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.app-main{
+    width: 50vh;
+    margin:100px auto ;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: large;
+    border-radius: 5px;
+    
+}
+.app-main > *{
+    margin-bottom: 26px;
+}
+    
+.input-box{
+    background-color:rgb(116, 94, 138);
+    color: wheat;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 6px;
+    text-align: center;
+
+}
+.input-box :hover{
+    background-color: aquamarine;
+}
+
+.weather-body{
+    color:black;
+    background-color:rgb(117, 113, 122) ;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    height: 55vh;
+}
+
+.location-details{
+    font-weight: bold;
+}
+.weather-status{
+    padding: 20px;
+}
+ 
+.temp{
+    font-size: 50pt;
+    font-weight: 700;
+    color: aliceblue;
+    margin: 20px 0;
+    text-shadow:rgb(49, 31, 184);
+}
+.min-max , .weather{
+    font-size: 15pt;
+    font-weight: 500;
+}
