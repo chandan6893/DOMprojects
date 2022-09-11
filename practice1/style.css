@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    /* margin-right: 0px; */
+    border: 2px solid black;
+    padding: 30px 20px;
+    /* right: 8px; */
+}
+.content{
+ border: 3px solid blue;
+ /* position: absolute; */
+ width: 100%;
+}
+.content img{
+    width: 10%;
+    /* text-align: center; */
+    
+}
