@@ -53,7 +53,7 @@ visibility: hidden;
 }  
 
 .closeButton{
-    position:absolute;
+   position:absolute;
    right: 42%;
    top:14px;
    color:black;
