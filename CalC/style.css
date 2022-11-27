@@ -1,0 +1,26 @@
+.container{
+    background-color: aquamarine;
+    width: 28rem;
+    line-height: 1.5;
+    
+}
+
+.display{
+    background-color: blueviolet;
+    text-align: right;
+    padding: 0.4rem;
+}
+
+.buttons{
+    background-color: yellowgreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.btn{
+    /* background-color: tomato; */
+    border: 0.001rem solid black;
+    text-align: center;
+    padding: 5px ;
+    font-weight: bolder;
+}
